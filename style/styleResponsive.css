@@ -1,0 +1,237 @@
+@media screen and (max-width : 1200px) {
+    #moitieDroite {
+        padding-left: 2%;
+    }
+}
+@media screen and (max-width : 900px){
+    #containerHeader {
+        font-size: 100px;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+    }
+    
+    #moitieGauche {
+        line-height: 55px;
+    }
+    #ligneOrange {
+        position: absolute;
+        top: 80px;
+        left: 255px;
+        width: 11%;
+    }
+    #ligneBlanche {
+        top: -20px;
+        left: 270px;
+    }
+    
+#moitieDroite {
+    font-size: 55px;
+    text-align: center;
+    font-family: "Roboto";
+    line-height: 59px;
+    width: 50%;
+    padding-top: 12%;
+    /* padding-left: 15%; */
+    text-decoration: underline;
+}
+#moitieGauche {
+    text-align: center;
+}
+    .blocPlayer {
+        width: 65%;
+    }
+    .dot {
+        height: 100px;
+        width: 100px;
+        right: -12%;
+        top: -14%;
+
+    }
+    .dot p {
+        top: 45%;
+        font-size: 13px;
+    }
+    .containerBlocGris {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+    .grisGauche {
+        width: 60%;
+        padding-top: 35px;
+        font-family: "Roboto";
+        text-align: center;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+    .grisDroite {
+        width: 60%;
+        padding-top: 35px;
+        font-family: "Roboto";
+        text-align: center;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+    #photoFooter2 {
+        top: 70px;
+    }
+}
+@media screen and (max-width : 415px){
+    .wrap {
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+    #shop {
+        display: none;
+    }
+    #logoInsta {
+        position: absolute;
+        left: 0;
+    }
+    .sidenav a {
+        font-size: 30px;
+    }
+    .apparitionMenu {
+        padding: 45% 0 0 0;
+    }
+    #ligneOrange {
+        left: 5%;
+    }
+    #ligneOrange img {
+        width: 50%;
+    }
+    #ligneBlanche {
+        top: 52px;
+        left: 285px;
+    }
+#containerHeader {
+    font-size: 80px;
+    display: block; 
+    padding-top: 160px;
+    text-align: center;
+}
+
+    #moitieGauche {
+     width: 100%;
+    text-align: center;
+    line-height: 30px;
+    }
+    #moitieDroite {
+        padding-left: 0;
+        font-size: 50px;
+        line-height: 60px;
+        position: relative;
+        right: 0px;
+        width : 100%;
+    }
+    #arrowDown img {
+        bottom: 20px;    
+    }
+    .blocPlayer {
+        width: 100%;
+        padding-top: 60px;
+    }
+    .dot {
+        height: 75px;
+        width: 75px;
+        right: 0;
+        top : 0;
+        }
+    .dot p {
+        top: 44%;
+        font-size: 10px;
+    }
+    .blocTexte {
+        font-size: 20px;
+        padding-top: 5px;
+    }
+    .blocSousTexte {
+        font-size: 12px;
+        padding-bottom: 5px;
+    }
+    .blocGris {
+            margin-top: 35px;
+            padding-bottom: 35px;
+    }
+    .containerBlocGris {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+    .grisGauche {
+        width: 100%;
+         padding-top: 0px; 
+    }   
+    .grisDroite {
+        width: 100%;
+        padding-top: 35px;
+    }
+    h3 p{
+        font-size: 40px;
+        bottom: 0;
+    }
+    .main-carousel2 {
+        display: none;
+    }
+    .main-carousel2Responsive {
+        display: block;
+    }
+    .main-carousel2Responsive .blocInfo {
+            padding-top: 3px;
+    }
+    .main-carousel2Responsive .blocTexte {
+        font-size: 12px;
+        padding-top: 1px;
+        padding-bottom: 6px;
+}
+.main-carousel2Responsive .blocSlider2 {
+   width: 100%;
+}
+.flickity-enabled.is-draggable .flickity-viewport {
+    height: 450px;
+
+}
+#blocFleche {
+    position: relative;
+    bottom: 0;
+    right: 0;
+    padding-bottom: 15px;
+    padding-top: 30px;
+    text-align: center;
+}
+
+#flecheInfo img {
+    height: auto;
+    width: 10%;
+    position: absolute;
+    right: 15px;
+    bottom: 25px;    
+}
+    #interTitreContact {
+        padding-bottom: 35px;
+        padding-top: 50px;
+        font-size: 32px;
+        width : 60%;
+    }
+    #photoFooter1 {
+        position: relative;
+         top: 0px; 
+        width: 45%;
+        height: auto;
+        display: block;
+    }
+    #photoFooter2 {
+        position: absolute;
+        right: 0px;
+        top: 70px;
+        width: 34%;
+        height: auto;
+    }
+    #containerBoutonFooter {
+        padding-top: 35px;
+        font-size: 35px;
+    }
+}
