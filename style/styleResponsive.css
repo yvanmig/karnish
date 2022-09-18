@@ -79,6 +79,12 @@
         top: 70px;
     }
 }
+@media screen and (max-width : 768px) {
+    #instaBurger {
+        padding-right: 70px;
+    }
+}
+
 @media screen and (max-width : 415px){
     .wrap {
         margin-left: 1%;
